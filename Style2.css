@@ -1,0 +1,54 @@
+/* Propiedades generales Caja Externa*/
+form {
+  width: 25%;
+  border: 1px solid grey;
+  margin: 20px;
+  padding: 20px;
+}
+/* Propiedades de las etiquetas*/
+
+label {
+  font-size: 12px;
+  display: block; /* Para que queden una debajo de las otras */
+  width: 100%;
+}
+textarea {
+  resize: vertical; /* Permite cambiar tamaño solo vertical */
+  max-height: 300px;
+  min-height: 100px;
+}
+/* Propiedades de las input y las textarea */
+input, textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; /* Para que ajuste el borde derecho */
+  border: 1px solid grey;
+}
+/* Cambiar propiedades cuando ingresas a la casilla */
+input:focus, textarea:focus {
+  border:1px solid blue;
+}
+
+input[type="submit"] {
+  margin-bottom: 0px;
+  background: blue;
+  color: white;
+  border: none;
+}
+/* Cambiar propiedades cuando pasas con el mouse */
+input[type="submit"]:hover {
+  background: lightblue;
+  cursor: pointer;
+  color: black;
+}
+
+h1 {
+  background: Blue;
+  color: white;
+  padding: 10px 20px;
+}
+h2, p {
+  font-style: italic;
+  padding: 5px 20px;
+}
